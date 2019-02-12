@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CreateQuestions]">
+  <test thread-count="5" name="Create Question Test(failed)">
+    <classes>
+      <class name="test.createsurvey.addSingleChoice">
+        <methods>
+          <include name="clickSingleChoice"/>
+          <include name="setStatusintoReport"/>
+          <include name="addSingleChoice"/>
+          <include name="initResult"/>
+          <include name="checkRUnMode"/>
+        </methods>
+      </class> <!-- test.createsurvey.addSingleChoice -->
+      <class name="test.createsurvey.addGRS_Dislike">
+        <methods>
+          <include name="checkRUnMode"/>
+          <include name="closeReport"/>
+          <include name="setStatusintoReport"/>
+          <include name="clickGRS_Dislike"/>
+          <include name="initResult"/>
+          <include name="addGRS_Dislike"/>
+        </methods>
+      </class> <!-- test.createsurvey.addGRS_Dislike -->
+      <class name="test.createsurvey.addSingleText">
+        <methods>
+          <include name="clickSingleText"/>
+          <include name="closeReport"/>
+          <include name="initResult"/>
+          <include name="setStatusintoReport"/>
+          <include name="addSingleText"/>
+          <include name="checkRUnMode"/>
+        </methods>
+      </class> <!-- test.createsurvey.addSingleText -->
+      <class name="updateQuestionType.fromSingleChoiceToOther">
+        <methods>
+          <include name="changeType"/>
+          <include name="checkRUnMode"/>
+        </methods>
+      </class> <!-- updateQuestionType.fromSingleChoiceToOther -->
+    </classes>
+  </test> <!-- Create Question Test(failed) -->
+</suite> <!-- Failed suite [CreateQuestions] -->

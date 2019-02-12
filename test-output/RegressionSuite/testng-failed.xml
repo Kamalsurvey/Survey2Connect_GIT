@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="Login_Test(failed)">
+    <classes>
+      <class name="test.createsurvey.addNPS_Circle">
+        <methods>
+          <include name="initResult"/>
+          <include name="addNPS"/>
+          <include name="clickNPS"/>
+          <include name="setStatusintoReport"/>
+        </methods>
+      </class> <!-- test.createsurvey.addNPS_Circle -->
+    </classes>
+  </test> <!-- Login_Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

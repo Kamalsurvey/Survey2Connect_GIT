@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CreateQuestions">
+	<test name="Create Question Test">
+		<classes>	
+			
+		<class name="test.createsurvey.startTest" />
+			<class name="test.createsurvey.addSingleChoice" />
+				<class name="test.createsurvey.addSingleText" />
+				<class name="test.createsurvey.addGRS_Dislike" />
+				<class name="updateQuestionType.fromSingleChoiceToOther" />
+				
+						
+		   <!--  <class name="test.createsurvey.addNPS_Tiles" />
+		    <class name="test.createsurvey.addMultiChoice" />	
+			<class name="test.createsurvey.addDropdown" />	 	   
+		    <class name="test.createsurvey.addNPS_Circle" />
+		    <class name="test.createsurvey.addNPS_Emoji" />
+		    <class name="test.createsurvey.addNPS_Arc" />
+			<class name="test.createsurvey.addNPS_Slider" />		   
+		    <class name="test.createsurvey.addGRS_Smileys" /> 
+			<class name="test.createsurvey.addGRS_Gradient" />
+			<class name="test.createsurvey.addGRS_Emojis" />
+			<class name="test.createsurvey.addGRS_Dislike" />
+			<class name="test.createsurvey.addGRS_Stars" />
+			<class name="test.createsurvey.addGRS_Gift" />
+			<class name="test.createsurvey.addGRS_Likes" />
+			<class name="test.createsurvey.addGRS_Users" />
+			<class name="test.createsurvey.addGRS_Trophy" />
+			<class name="test.createsurvey.addGRS_Slider" />			
+			<class name="test.createsurvey.addSingleText" />
+	        <class name="test.createsurvey.addMultiText" />
+			<class name="test.createsurvey.addRanking" />			
+			<class name="test.createsurvey.addMRS_SC" />
+			<class name="test.createsurvey.addMRS_Dropdown" />
+			<class name="test.createsurvey.addMRSText" />			
+			<class name="test.createsurvey.addContacts" />
+			<class name="test.createsurvey.addLongText" />
+			<class name="test.createsurvey.addStatement" />
+			<class name="test.createsurvey.addDateTime" />
+			<class name="test.createsurvey.addFileUpload" />			
+			<class name="test.createsurvey.addSlider" />
+			<class name="test.createsurvey.addSlider_CT2" />
+			<class name="test.createsurvey.addSlider_CT3" />
+			<class name="test.createsurvey.addSlider_DT1" />
+			<class name="test.createsurvey.addSlider_DT2" />
+			<class name="test.createsurvey.addSlider_DT3" /> -->
+			
+			
+
+		</classes>
+
+	</test>
+	
+	
+	
+</suite>
+
+
+
+  
